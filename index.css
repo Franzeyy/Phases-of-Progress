@@ -47,6 +47,8 @@ a:hover::after {
   border: #000000 solid 2px;
   border-radius: 12px;
   width: fit-content;
+  border: #000000 solid 2px;
+  position: relative;
  
 }
 
@@ -57,7 +59,10 @@ a:hover::after {
   padding: 8px 12px 8px 28px; 
   line-height: 1.4;
   border-radius: 8px;
+  background-color: blanchedalmond;
   list-style: none;
+  border: #000000 solid 1px;
+  margin-bottom: 8px;
   
 }
 
@@ -81,6 +86,12 @@ a:hover::after {
   margin: 20px right;
   border: #000000 solid 2px;
   border-radius: 12px;
-  width: fit-content;
+  width: 210px;
+
+  position: relative;
+  left: 300px;
+  top: -628px;
  
 }
+
+

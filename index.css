@@ -83,14 +83,16 @@ a:hover::after {
 .secondQuarter {
   list-style: none;
   padding: 10px;
-  margin: 20px right;
   border: #000000 solid 2px;
   border-radius: 12px;
   width: 210px;
+  margin-top: -625px;
+  margin-left: 300px;
+  
+  
+  
 
-  position: relative;
-  left: 300px;
-  top: -628px;
+
  
 }
 

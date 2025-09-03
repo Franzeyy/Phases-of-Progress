@@ -1,0 +1,40 @@
+body {
+
+  margin: 0;
+  height: 100vh;
+  background: linear-gradient(-45deg, red, black, red, black);
+  background-size: 500% 500%;
+  animation: radialGradient 8s ease infinite;
+}
+
+@keyframes radialGradient {
+  0% {
+    background-position: 50% 0%;
+  }
+  50% {
+    background-position: 100% 100%;
+  }
+  100% {
+    background-position: 50% 0%;
+  }
+}
+
+
+a {
+    text-align: center;
+    color: rgb(241, 173, 173);
+    text-decoration: none;
+    transition: color 0.45s;
+    outline: none; 
+}
+
+
+
+a:hover { 
+    color: rgb(65, 14, 14);
+}
+
+a:hover::after {
+    scale: 1 1;
+}
+

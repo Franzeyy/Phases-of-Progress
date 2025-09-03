@@ -41,14 +41,16 @@ a:hover::after {
 
 
 .firstQuarter {
-  list-style: none;
+
+  
   padding: 10px;
-  margin: 20px right;
   border: #000000 solid 2px;
   border-radius: 12px;
   width: fit-content;
   border: #000000 solid 2px;
   position: relative;
+  margin-left: 50px;
+  align-items: center;
  
 }
 
@@ -60,9 +62,12 @@ a:hover::after {
   line-height: 1.4;
   border-radius: 8px;
   background-color: blanchedalmond;
-  list-style: none;
+  
   border: #000000 solid 1px;
+  width: auto;
   margin-bottom: 8px;
+  text-align: left;
+  
   
 }
 
@@ -70,6 +75,7 @@ a:hover::after {
 
 
 .firstQuarter li::before {
+  
   content: "➤";               
   position: absolute;
   left: 8px;
@@ -87,13 +93,30 @@ a:hover::after {
   border-radius: 12px;
   width: 210px;
   margin-top: -625px;
-  margin-left: 300px;
+  margin-left: 325px;
+  text-align: left;
   
-  
-  
-
-
  
 }
 
+.secondQuarter li {
+  position: relative;
+  padding: 8px 12px 8px 28px; 
+  line-height: 1.4;
+  border-radius: 8px;
+  background-color: blanchedalmond;
+  border: #000000 solid 1px;
+  margin-bottom: 8px;
+  
+}
 
+
+.secondQuarter li::before {
+  
+  content: "➤";               
+  position: absolute;
+  left: 8px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-weight: 700;
+}

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>I WANT TO BE SURE 💖</title>
+  <style>
+    body { font-family: Arial, sans-serif; background: #ffe0f0; text-align: center; }
+    .game-box { margin: 60px auto; background: #fff0fa; border-radius: 16px; padding: 40px; width: 350px; box-shadow: 0 0 16px #e0b6d6; }
+    h1 { color: #e04895; }
+    .question { margin: 25px 0; font-size: 1.1em; }
+    button, .heart-btn { background: #e04895; color: white; border: none; border-radius: 8px; font-size: 1em; padding: 12px 24px; margin: 8px; cursor: pointer; }
+    button:hover, .heart-btn:hover { background: #c03678; }
+    .result { margin-top: 30px; font-size: 1.2em; }
+    .heart-btn { font-size: 2em; padding: 16px 32px; background: #ff4081; }
+  </style>
+</head>
+<body>
+  <div class="game-box">
+    <h1>💖 I WANT TO BE SURE 💖</h1>
+    <div id="questionBox" class="question"></div>
+    <div id="buttons"></div>
+    <div id="result" class="result"></div>
+  </div>
+  <script>
+    let denied = false;
+    let heartClicks = 0;
+
+    function startGame() {
+      document.getElementById("result").textContent = "";
+      document.getElementById("questionBox").textContent = "Do you love me? 😊";
+      document.getElementById("buttons").innerHTML = `
+        <button onclick="answer('yes')">Yes</button>
+        <button onclick="answer('no')">No</button>
+      `;
+    }
+
+    function answer(ans) {
+      if (ans === "yes") {
+        document.getElementById("questionBox").textContent = "";
+        document.getElementById("buttons").innerHTML = "";
+        document.getElementById("result").innerHTML = `
+          Yay! You love me! 💖💖💖<br>
+          Your love level for me is: <b>100%</b>
+        `;
+      } else {
+        denied = true;
+        playHeartGame();
+      }
+    }
+
+    function playHeartGame() {
+      document.getElementById("questionBox").textContent = "Oh no! You said no 😢";
+      document.getElementById("buttons").innerHTML = `
+        <div>Click the heart 5 times to unlock your true love! 😉</div>
+        <button class="heart-btn" onclick="clickHeart()">💗</button>
+        <div id="clickCount">Clicks: 0/5</div>
+      `;
+      document.getElementById("result").textContent = "";
+    }
+
+    function clickHeart() {
+      heartClicks++;
+      document.getElementById("clickCount").textContent = `Clicks: ${heartClicks}/5`;
+      if (heartClicks >= 5) {
+        forceYes();
+      }
+    }
+
+    function forceYes() {
+      document.getElementById("questionBox").textContent = "";
+      document.getElementById("buttons").innerHTML = "";
+      document.getElementById("result").innerHTML = `
+        See? Deep down, you do love me! 💖<br>
+        Your love level for me is: <b>100%</b><br>
+        (Forced by destiny and cute hearts 😉)
+      `;
+    }
+
+    startGame();
+  </script>
+</body>
+</html>

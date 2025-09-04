@@ -28,18 +28,45 @@ a::after {
   transition: width 0.3s ease;
 }
 
+
 a:hover::after {
   width: 100%; 
 }
+
 
 
 .intro {
     color: rgb(228, 168, 38);
     font-size: 30px;
     text-align: center;
+
+}
+
+/* pang hightlight */
+/* for all quarter */
+.firstQuarter,
+.secondQuarter {
+  background-color: rgb(236, 229, 121);
+  
+}
+
+.firstQuarter li:hover,
+.secondQuarter li:hover {
+  background-color: #e98203; 
+  transform: scale(1.05);
+  box-shadow: #ff3502 0 0 10px 2px;
+}
+
+.firstQuarter:hover,
+.secondQuarter:hover {
+  box-shadow: #ff3502 0 0 20px 5px;
+  cursor: pointer;
+  transition: ease-in-out 0.5s;
+  
 }
 
 
+/* first quarter */
 .firstQuarter {
   list-style: none;
   padding: 10px;
@@ -47,7 +74,8 @@ a:hover::after {
   border-radius: 12px;
   width: 210px;
   margin-left: 30px;
-  
+  box-shadow: #050303 5px 5px 15px;
+  background-color: rgb(236, 229, 121);
   
  
 }
@@ -61,7 +89,8 @@ a:hover::after {
   border: #000000 solid 1px;
   margin-bottom: 8px;
   width: 90px;
-  
+  cursor: pointer;
+ 
 }
 
 
@@ -73,7 +102,9 @@ a:hover::after {
   top: 50%;
   transform: translateY(-50%);
   font-weight: 700;
+
 }
+
 
 
 /* second quarter */
@@ -86,9 +117,11 @@ a:hover::after {
   margin-top: -740px;
   margin-left: 325px;
   text-align: left;
+  box-shadow: #050303 5px 5px 15px;
   
  
 }
+
 
 .secondQuarter li {
   position: relative;
@@ -100,8 +133,8 @@ a:hover::after {
   margin-bottom: 8px;
   width: 90px;
   
+  
 }
-
 
 .secondQuarter li::before {
   

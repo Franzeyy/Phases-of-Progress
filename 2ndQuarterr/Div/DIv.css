@@ -1,0 +1,32 @@
+body {
+    background-color: rgb(221, 245, 7);
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 12.5%    
+}
+
+
+div {
+    float: left;
+    width: 46%;
+    margin: 1%;
+}
+
+
+.perent {
+    text-align: center;
+    background-color: rgb(7, 245, 221);
+    padding: 10px;
+    border: solid black 2px;
+    box-shadow: 10px 10px 5px grey;
+    border-radius: 10px
+    
+}
+
+.child {
+    text-align: center;
+    height: 120px;
+    background-color: rgb(255, 166, 0);    
+    border: solid black 2px;
+    box-shadow: 10px 10px 5px grey;
+    border-radius: 10px
+}

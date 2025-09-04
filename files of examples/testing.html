@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hover Link in Border</title>
+  <style>
+    .box {
+      border: 2px solid black;
+      border-radius: 8px;
+      padding: 20px;
+      width: fit-content;
+      position: relative;
+    }
+
+    .box a {
+      text-decoration: none;
+      color: blue;
+      font-weight: bold;
+      position: relative;
+      z-index: 1; /* makes sure it's above the border */
+    }
+
+    .box a:hover {
+      color: red;
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <div class="box">
+    <a href="https://example.com" target="_blank">Click Me</a>
+  </div>
+</body>
+</html>

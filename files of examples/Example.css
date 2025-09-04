@@ -33,7 +33,7 @@ a:hover::after {
 }
 
 .Quarters {
-    width: 45.5%;
+    width: 45%;
     margin: 1%;
     float: left;
     border: 2px solid black;
@@ -45,7 +45,7 @@ a:hover::after {
 
 .Quarters:hover {
     box-shadow: 0 0 20px 5px #ff3502;
-    transition: box-shadow 0.9s ease;
+    transition: box-shadow 0.5s ease;
 }
 
 .Inside {
@@ -66,3 +66,6 @@ a:hover::after {
     
 }
 
+a:hover > .Inside {
+    background-color: #b0b0b0;
+}

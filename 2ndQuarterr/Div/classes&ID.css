@@ -1,0 +1,67 @@
+.Head,
+.Body {
+    color: blue;
+    text-align: center;
+    border: 2px dashed black;
+    padding: 10px;
+    margin: 10px;
+    background-color: lightgray;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(2, 2, 2, 0.9);
+    font-size: 24px;    
+    
+}
+
+
+.heading {
+    font-size: 20px;
+    background-color: yellow;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 2px solid red;
+
+}
+
+.body {
+    font-size: 16px;
+    color: green;
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    text-align: center;
+    background-color: lightyellow;
+    border: 2px solid orange;
+}
+
+.paa{
+    font-size: 14px;
+    color: purple;
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    text-align: center;
+    background-color: lightpink;
+    border: 2px solid magenta;
+    height: 400px;
+}
+
+#classes {
+    font-size: 18px;
+    color: brown;
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    text-align: center;
+    background-color: lightcyan;
+    border: 2px solid teal;
+    float: left;
+    height: 250px;
+    width: 32%;
+}
+
+
+    

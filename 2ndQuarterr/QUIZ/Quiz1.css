@@ -1,0 +1,46 @@
+.una {
+    text-align: center;
+    background-color: lightblue;
+    border: 3px solid red;
+    border-radius: 20px;
+    box-shadow: 2px 4px 9px rgb(255, 0, 0);
+}
+
+.pangalawa {
+    margin-left: 250px;
+    margin-top: 20px;
+    border-radius: 20px;
+    box-shadow: 8px 8px 8px  rgba(217, 255, 1, 0.9);
+    border: 2px solid yellow;
+    border-top: 0px ;
+    width: 75%;
+    height: 90px; 
+}
+
+.pangatlo {
+    margin: 2px;
+    padding-left: 240px;
+    padding-top: 20px;
+
+}
+
+#imahe {
+
+    margin-left: 5px;
+    text-align: center;
+    background-color: rgb(190, 182, 182);
+    padding-left: 250px;
+    float: left;
+    border: 1px solid black;
+    border-radius: 60px;
+    height: 25px;
+    width: 27%;
+    padding: 15px;
+    box-shadow: 1px 8px 8px blue;
+
+}
+
+
+
+
+

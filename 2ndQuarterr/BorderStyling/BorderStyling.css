@@ -1,0 +1,10 @@
+body {
+    background-color: rgb(149, 219, 202);
+}
+
+
+.Border { 
+    padding: 20px;
+    border: 3px solid blue;
+    border-radius: 20px;
+}

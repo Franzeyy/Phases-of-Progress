@@ -1,0 +1,108 @@
+body {
+    background-color: rgb(191, 245, 138) ;
+}
+
+.mama {
+    padding-left: 16%;
+}
+
+.Perent {
+    float: left;
+    border: 2px solid black;
+    height: 609px;
+    width: 600px;
+    margin: 20px;
+    border-radius: 20px;
+    box-shadow: black 2px 2px 18px 2px;
+
+}
+
+.Children {
+    float: left;
+    border: 2px solid black;
+    height: 199px;
+    width: 196px;
+    
+}
+
+#box1 {
+    background-color: #FF0033;
+    border-top-left-radius: 19px;
+
+}
+
+#box2 {
+    background-color: #FF3333;
+
+}
+
+#box3 {
+    background-color: #FF6633;
+    border-top-right-radius: 19px;
+
+}
+
+#box4 {
+    background-color: #FF9933;
+
+}
+
+#box5 {
+    background-color: #FFCC33;
+    width: 160px;
+    margin-left: 36px;
+
+}
+
+#box6 {
+    background-color: #FFFF33;
+
+}
+
+#box7 {
+    background-color: #CCFF33;
+    border-bottom-left-radius: 19px;
+
+}
+
+#box8 {
+    background-color: #99FF33;
+
+}
+
+#box9 {
+    background-color: #66FF33 ;
+    border-bottom-right-radius: 19px;
+
+}
+
+
+#MarginLeft {
+    background-color: #FFCC33;
+    width: 160px;
+    margin-left: 36px;
+   
+}
+
+#MarginRight { 
+    background-color: #FFCC33;
+    width: 160px;
+    margin-right: 36px;
+   
+}
+
+
+#MarginTop {
+    background-color: #FFCC33;
+    height: 163px;
+    margin-top: 36px;
+
+}
+
+
+#MarginBottom {
+    background-color: #FFCC33;
+    height: 163px;
+    margin-bottom: 36px;
+
+}

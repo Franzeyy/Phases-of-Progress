@@ -1,29 +1,32 @@
 body {
-    background-color: antiquewhite;
-}
-
-.h2 {
-    position: relative;
-    margin-left: 200px;  
+  background-color: burlywood;
 }
 
 
-.arrow {
+.Perent {
+  width: 23%;
+  float: left;
+  margin-left: 30px;
+  text-align: center;
+  border-radius: 20px;
+  border: 2px solid black;
+}
+
+.perent {
+  width: 23%;
+  float: left;
+  margin-left: 30px;
+  text-align: center;
+  border-radius: 20px;
+  border: 2px solid black;
+  height: 800px;
+}
+
+.children {
+  
+  border-radius: 20px;
+  text-align: center;
+  margin: 20px;
+  border: 2px solid black;
   list-style: none;
-  padding: 0;
-  margin-right: 0;
-
-}
-
-.arrow li::before {
-  content: "➤";  /* arrow symbol */
-  color: teal;
-  margin-right: 8px;
-}
-
-
-.first {
-    
-
-    
 }

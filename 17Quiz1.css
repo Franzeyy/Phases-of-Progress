@@ -1,4 +1,5 @@
 .una {
+    margin-top: 20px;
     text-align: center;
     background-color: lightblue;
     border: 1px solid red;
@@ -7,7 +8,7 @@
 }
 
 .pangalawa {
-    margin-left: 250px;
+    margin-left: 200px;
     margin-top: 20px;
     border-radius: 20px;
     box-shadow: 3px 8px 8px yellow;
@@ -33,7 +34,7 @@
     float: left;
     border: 1px solid black;
     border-radius: 60px;
-    height: 25px;
+    height: 40px;
     width: 27%;
     padding: 15px;
     box-shadow: 6px 8px 8px blue;
@@ -41,6 +42,11 @@
 }
 
 
+   
 
+
+.po {
+    font-family: Arial, Helvetica, sans-serif;
+}
 
 

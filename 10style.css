@@ -5,29 +5,29 @@
   margin: 20px;
 }
 
-h1 {
+.H1 {
   text-align: center;
   font-family: Arial, sans-serif;
   color: rgb(125, 125, 233);
 }
 
-h2 {
+.H2 {
   text-align: center;
   font-family: 'Courier New', Courier, monospace;
   color: rgb(200, 100, 50);
 }
 
-ul, ol {
+.UL, OL {
   border: 2px solid black;
   border-radius: 20px;
   width: 200px;
-  height: 420px;
+  height: 500px;
   list-style: none;
   padding: 10px;
   background-color: lavender;
 }
 
-li {
+.LI {
   border: 2px solid gray;
   border-radius: 5px;
   margin: 5px;
@@ -37,7 +37,7 @@ li {
 }
 
 /* arrows bullets */
-li::before {
+.LI::before {
   content: "➤";
   position: absolute;
   left: 8px;
@@ -51,27 +51,27 @@ li::before {
   border: 2px solid blue;
   border-radius: 10px;
   width: 720px;
-  height: 440px;
+  height: 550px;
   margin: 20px auto; /* centers it horizontally */
   padding: 10px;
   background-color: lightcyan;
 }
 
 
-dt {
+.DT {
   font-weight: bold;
   margin-top: 10px;
 }
 
-dl {
+.DL {
   padding: 10px;
 }
 
-dd {
+.DD {
   margin-left: 20px;
   margin-bottom: 10px;
 }
 
-ul, ol, dl {
+.UL, OL, DL {
   box-shadow: 4px 4px 8px rgba(0.9, 0.9, 0.9, 0.9);
 }

@@ -1,0 +1,50 @@
+.pagitna {
+    position: absolute;
+    top: 10%;
+    left: 35%;
+    transform: translate(-50%, 0);
+}
+.box {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    border-radius: 20px;
+
+}
+
+.box1 {
+    background-color: red;
+    top: 150px;
+    left: 150px;
+    z-index: 1;
+    align-items: flex-start;
+}
+
+.box2 {
+    background-color: blue;
+    top: 200px;
+    left: 200px;
+    z-index: 3;
+    align-items: center;
+
+}
+
+.box3 {
+    background-color: green;
+    top: 250px;
+    left: 250px;
+    z-index: 2;
+    align-items: flex-end;
+
+}
+
+.box:hover {
+    transform: scale(1.1);
+    opacity: 2;
+    cursor: pointer;
+    z-index: 4;
+}

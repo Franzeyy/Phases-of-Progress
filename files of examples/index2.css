@@ -1,0 +1,85 @@
+body {
+    background-color: blanchedalmond;
+}
+/* Base link style */
+a {
+  color: #000000;
+  text-decoration: none;
+  transition: all 0.3s ease; 
+  position: relative;
+}
+
+
+a:hover {
+  color: #ff3502;       
+  transform: scale(1.1); 
+}
+
+
+a::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px;
+  left: 0;
+  bottom: -3px;
+  background-color: #f31101;
+  transition: width 0.3s ease;
+}
+
+
+a:hover::after {
+  width: 100%; 
+}
+
+.Quarters,
+.Quizes {
+    width: 21%;
+    margin: 1.2%;
+    float: left;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 10px 10px 5px grey;
+    
+}
+
+.Quarters:hover {
+    box-shadow: 0 0 20px 5px #ff3502;
+    transition: box-shadow 0.9s ease;
+}
+
+.Inside,
+.Quiz {
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    border: 2px solid black;
+    border-radius: 10px;
+    
+
+}
+
+.Inside:hover {
+    background-color: #b0b0b0;
+    transition: background-color 1s ease;
+    
+}
+
+
+/** quiezes **/
+.Quizes:hover {
+    box-shadow: 0 0 20px 5px #ff3502;
+    transition: box-shadow 0.9s ease;
+}
+
+
+.Quiz:hover {
+    background-color: #b0b0b0;
+    transition: background-color 1s ease;
+    
+}
+
+

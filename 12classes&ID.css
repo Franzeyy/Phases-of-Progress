@@ -1,0 +1,115 @@
+.Head,
+.Body {
+    color: blue;
+    text-align: center;
+    border: 2px dashed black;
+    padding: 10px;
+    margin: 10px;
+    background-color: lightgray;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(2, 2, 2, 0.9);
+    font-size: 24px;
+    
+}
+
+
+.heading {
+    font-size: 20px;
+    background-color: yellow;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 2px solid red;
+
+}
+
+.body {
+    font-size: 16px;
+    color: green;
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    text-align: center;
+    background-color: lightyellow;
+    border: 2px solid orange;
+}
+
+.paa{
+    font-size: 14px;
+    color: purple;
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid gray;
+    border-radius: 15px;
+    text-align: center;
+    background-color: rgb(172, 203, 224);
+    border: 2px solid magenta;
+    height: 750px;
+}
+
+#classes {
+    font-size: 18px;
+    color: brown;
+    margin: 5px;
+    padding: 5px;
+    border: 3px solid gray;
+    border-radius: 15px;
+    text-align: center;
+    border: 2px solid rgb(66, 221, 46);
+    float: left;
+    height: 200px;
+    width: 32%;
+    background-color: rgb(208, 255, 0);
+    
+}
+
+
+/* second */
+
+.Bigsqaure {
+    color: rgb(255, 1, 1);
+    text-align: center;
+    border: 2px ridge black;
+    padding: 10px;
+    margin: 10px;
+    background-color: lightgray;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(2, 2, 2, 0.9);
+    font-size: 24px;  
+    height: 900px;
+}
+
+.kahon {
+    float: left;
+    border: 5px outset red;
+    border-radius: 10px;
+    width: 30%;
+    height: 170px;
+    margin: 15px;
+    padding: 10px;
+    background-color: rgb(178, 218, 152);
+    padding-top: 70px;
+    
+}
+
+#one {
+    font-size: 50px; 
+    
+    
+}
+
+#two {
+    border-radius: 50px;
+    font-size: 50px;
+
+}
+
+#three {
+    border-radius: 100px;
+    font-size: 50px;
+}
+
+
+
+

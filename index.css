@@ -1,85 +1,139 @@
+/* General Reset & Base */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 body {
-    background-color: blanchedalmond;
+  font-family: "Poppins", cursive;
+  background-color: #f3f3f3;
+  color: #333;
+  line-height: 1.6;
 }
-/* Base link style */
-a {
-  color: #000000;
+
+/* Header */
+header {
+  background: linear-gradient(135deg, #6d6d6d, #8a8a8a);
+  color: #fff;
+  text-align: center;
+  padding: 40px 20px;
+  font-size: 40px;
+  letter-spacing: 2px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  border-bottom: 4px solid #d60000;
+}
+
+/* Section Layout */
+section {
+  display: flex;
+  flex-wrap: wrap;
+  min-height: 80vh;
+}
+
+/* Navigation */
+nav {
+  flex: 1;
+  min-width: 250px;
+  background: #a5a5a5;
+  padding: 20px;
+  box-shadow: inset -2px 0 5px rgba(0, 0, 0, 0.2);
+}
+
+nav ul {
+  list-style: none;
+  text-align: center;
+}
+
+nav li {
+  margin: 10px 0;
+}
+
+nav li a {
+  display: block;
+  font-size: 22px;
+  color: #fff;
   text-decoration: none;
-  transition: all 0.3s ease; 
-  position: relative;
+  padding: 12px;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  background: rgba(0, 0, 0, 0.2);
 }
 
-
-a:hover {
-  color: #ff3502;       
-  transform: scale(1.1); 
+nav li a:hover {
+  background: #111;
+  color: #ffb3b3;
+  transform: scale(1.05);
 }
 
-
-a::after {
-  content: '';
-  position: absolute;
-  width: 0;
-  height: 2px;
-  left: 0;
-  bottom: -3px;
-  background-color: #f31101;
-  transition: width 0.3s ease;
+nav li a.active {
+  background: #0c0e0d;
+  border-left: 5px solid #d60000;
+  font-weight: bold;
 }
 
-
-a:hover::after {
-  width: 100%; 
+/* Article Content */
+article {
+  flex: 2;
+  background: #fff;
+  padding: 40px;
+  border-left: 3px solid #ccc;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.Quarters,
-.Quizes {
-    width: 21%;
-    margin: 1.2%;
-    float: left;
-    border: 2px solid black;
-    border-radius: 10px;
-    padding: 10px;
-    box-shadow: 10px 10px 5px grey;
-    
+article h2 {
+  color: #222;
+  margin-bottom: 15px;
+}
+/**** wala lng */
+article h2:nth-child(1) {
+  color: black;
+  
+}
+ /* Footer */
+footer {
+  background: #222;
+  color: #bbb;
+  text-align: center;
+  padding: 30px;
+  font-size: 14px;
+  border-top: 3px solid #d60000;
 }
 
-.Quarters:hover {
-    box-shadow: 0 0 20px 5px #ff3502;
-    transition: box-shadow 0.9s ease;
-}
+/* Responsive Design */
+@media (max-width: 900px) {
+  section {
+    flex-direction: column;
+  }
 
-.Inside,
-.Quiz {
-    padding: 10px;
-    margin: 10px;
-    text-align: center;
+  nav {
+    width: 100%;
+    box-shadow: none;
+    border-bottom: 3px solid #d60000;
+  }
+
+  nav li a {
     font-size: 20px;
-    font-weight: bold;
-    border: 2px solid black;
-    border-radius: 10px;
-    
+    padding: 10px;
+  }
 
+  article {
+    border: none;
+    box-shadow: none;
+  }
 }
 
-.Inside:hover {
-    background-color: #b0b0b0;
-    transition: background-color 1s ease;
-    
+@media (max-width: 500px) {
+  header {
+    font-size: 28px;
+    padding: 25px;
+  }
+
+  nav li a {
+    font-size: 18px;
+  }
+
+  article {
+    padding: 20px;
+  }
 }
-
-
-/** quiezes **/
-.Quizes:hover {
-    box-shadow: 0 0 20px 5px #ff3502;
-    transition: box-shadow 0.9s ease;
-}
-
-
-.Quiz:hover {
-    background-color: #b0b0b0;
-    transition: background-color 1s ease;
-    
-}
-
-

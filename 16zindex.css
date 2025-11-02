@@ -1,0 +1,73 @@
+.pagitna {
+    position: absolute;
+    top: 20%;
+    left: 55%;
+    transform: translate(-50%, 0);
+}
+.box {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    border-radius: 20px;
+    border-radius: 20%;
+
+}
+
+.pics {
+    width: 300px;
+    height: 200px;
+    border-radius: 20%;
+    border: 2px solid black;
+
+}
+
+.box1 {
+    top: 150px;
+    left: 350px;
+    z-index: 1;
+}
+
+.box2 {
+    top: 200px;
+    left: 200px;
+    z-index: 3;
+
+}
+
+.box3 {
+    top: 250px;
+    left: 250px;
+    z-index: 2;
+
+}
+
+.box4 {
+    z-index: 4;
+    align-items: flex-end;
+    position: relative;
+    left: 150px;
+    top: 400px;
+
+}
+
+
+.box5 {
+    top: 200px;
+    left: 250px;
+    z-index: 5;
+    align-items: flex-end;
+    position: relative;
+}
+
+
+.box:hover {
+    transition: ease-in-out 0.5s;
+    transform: scale(1.1);
+    opacity: 2;
+    cursor: pointer;
+    z-index: 50;
+}

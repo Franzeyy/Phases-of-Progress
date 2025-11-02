@@ -1,0 +1,17 @@
+.Strand {
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    border-style: 20px;
+    background-color: rgb(255, 255, 255)
+    
+}
+th, td {
+    border: 2px solid black;
+    text-align: center;
+    padding: 8px;
+    border-style: inset black; border-radius: 10px;
+}
+

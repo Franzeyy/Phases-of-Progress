@@ -16,6 +16,40 @@
 
 }
 
+
+#Content2 {
+    position: relative;
+    top: 0px;
+    left: 298px;
+    border: 1px solid blue;
+    background-color: lightgray;
+    width: 200px;
+    height: 200px;
+
+}
+
+#Content3 {
+    position: relative;
+    top: 198px;
+    left: 0px;
+    border: 1px solid blue;
+    background-color: lightgray;
+    width: 200px;
+    height: 200px;
+
+}
+
+#Content4 {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    border: 1px solid blue;
+    background-color: lightgray;
+    width: 200px;
+    height: 200px;
+
+}
+
 #header {
     text-align: center;
     position: fixed;
